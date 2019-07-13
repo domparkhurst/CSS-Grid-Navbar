@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0.5em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 60px;
+  font-family: tahoma;
+  font-size: small;
+  background-color: #eee;
+}
+
+.text {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.grid-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+}
